@@ -1,0 +1,17 @@
+.search-bar {
+    width:100%;        
+    margin:0 auto;
+}
+
+.search {
+    width:100%;
+    display: flex;
+    &__text {
+        flex-grow: 1;
+        width:100%;
+        margin-right:10px;
+    }
+    &__button {
+        flex-grow: 1;        
+    }
+}

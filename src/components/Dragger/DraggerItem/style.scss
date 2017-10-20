@@ -1,0 +1,27 @@
+.grid__item {
+    flex-basis: calc(25% - 10px);    
+    justify-content: space-between;
+    position: relative;        
+    border:1px solid rgb(200, 200, 200);    
+    user-select: none;
+    background:#fff;
+    margin:5px;
+    cursor:pointer;
+    text-align: center;
+    padding:10px;    
+    &:last-child {
+        margin-right:auto;
+    }
+    &-icon {
+        min-width:16px;
+        display:block;        
+        margin:0 auto;
+    }
+    &-link {        
+        display: inline-block;
+        margin-top:20px;
+        text-decoration: none;
+        color:black;        
+                
+    }
+}

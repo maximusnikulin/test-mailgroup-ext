@@ -1,0 +1,12 @@
+.links {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:40px;
+
+    &__item {   
+        display:block;
+        color:black;
+    }
+}

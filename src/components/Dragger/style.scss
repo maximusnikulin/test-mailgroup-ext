@@ -1,0 +1,11 @@
+.grid {
+    &__title {
+                
+    }
+    &__content {
+        display: flex;
+        flex-wrap: wrap; 
+        width: calc(100% + 10px);
+        margin-left: -5px;  
+    }
+}

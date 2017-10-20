@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Тестовое расширение для задания от Mail.Ru Groupe",
+    "version": "1.0.0",
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "history",
+      "storage"
+    ]    
+  }
